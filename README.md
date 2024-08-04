@@ -17,67 +17,42 @@ Node.js (v14.x or higher)
 npm (v6.x or higher) or yarn (v1.x or higher)
 ##Setup
 Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/todo-web-app.git
+```
+git clone https://github.com/vetanshu/todo-web-app.git
 cd todo-web-app
-Install dependencies:
+```
+##Install dependencies:
 
 Using npm:
 
-bash
-Copy code
+```
 npm install
-Using yarn:
+```
 
-bash
-Copy code
+Using yarn:
+```
 yarn install
+```
 Start the development server:
 
 Using npm:
-
-bash
-Copy code
+```
 npm start
+```
 Using yarn:
-
-bash
-Copy code
+```
 yarn start
-Open your browser and navigate to http://localhost:3000 to see the app in action.
+```
+**Open your browser and navigate to http://localhost:3000 to see the app in action.
 
-Project Structure
-plaintext
-Copy code
-├── public
-│   ├── index.html
-│   └── ...
-├── src
-│   ├── components
-│   │   ├── AddTodo.js
-│   │   ├── TodoItem.js
-│   │   ├── TodoList.js
-│   │   └── ...
-│   ├── context
-│   │   ├── TodoContext.js
-│   │   └── ...
-│   ├── styles
-│   │   └── tailwind.css
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-├── tailwind.config.js
-├── package.json
-└── ...
-Technologies Used
+
+##Technologies Used
 ReactJS: A JavaScript library for building user interfaces.
 Context API: A React structure that allows you to share state across the entire app.
 Tailwind CSS: A utility-first CSS framework for rapid UI development.
-Contributing
+##Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any bug fixes or enhancements.
 
-License
+##License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
